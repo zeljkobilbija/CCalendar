@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  CCalendar
 //
 //  Created by Zeljko Bilbija on 05/11/17.
@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        title = convertString
+        
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-

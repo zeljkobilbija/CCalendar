@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021070351FB22076000EBC60 /* SupportFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021070341FB22076000EBC60 /* SupportFile.swift */; };
+		0217C4231FAEA60200D3D908 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0217C4221FAEA60200D3D908 /* FirstViewController.swift */; };
+		0217C4261FAEA7FC00D3D908 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0217C4251FAEA7FC00D3D908 /* SecondViewController.swift */; };
 		0237C05F1FAE943900D41C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237C05E1FAE943900D41C4F /* AppDelegate.swift */; };
-		0237C0611FAE943900D41C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237C0601FAE943900D41C4F /* ViewController.swift */; };
 		0237C0641FAE943900D41C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0237C0621FAE943900D41C4F /* Main.storyboard */; };
-		0237C0661FAE943900D41C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0237C0651FAE943900D41C4F /* Assets.xcassets */; };
 		0237C0691FAE943900D41C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0237C0671FAE943900D41C4F /* LaunchScreen.storyboard */; };
+		02454C971FAF09E0006A1D88 /* MojButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02454C911FAF09DF006A1D88 /* MojButton.swift */; };
+		02454C981FAF09E0006A1D88 /* MojLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02454C921FAF09DF006A1D88 /* MojLabel.swift */; };
+		02454C991FAF09E0006A1D88 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02454C931FAF09DF006A1D88 /* DesignView.swift */; };
+		02454C9A1FAF09E0006A1D88 /* OOMojView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02454C941FAF09DF006A1D88 /* OOMojView.swift */; };
+		02454C9B1FAF09E0006A1D88 /* MojImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02454C951FAF09DF006A1D88 /* MojImage.swift */; };
+		02454C9C1FAF09E0006A1D88 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02454C961FAF09E0006A1D88 /* GradientView.swift */; };
+		024822BA1FB1062E0073B9EC /* FormatizovaniDatum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024822B91FB1062E0073B9EC /* FormatizovaniDatum.swift */; };
+		024822BC1FB111170073B9EC /* LokalizovaneStringe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024822BB1FB111170073B9EC /* LokalizovaneStringe.swift */; };
+		024985281FAF768200B8DDED /* MojPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024985251FAF768100B8DDED /* MojPicker.swift */; };
+		0249852D1FAF76F600B8DDED /* ModelPodataka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852B1FAF76F600B8DDED /* ModelPodataka.swift */; };
+		0249852E1FAF76F600B8DDED /* Podatci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852C1FAF76F600B8DDED /* Podatci.swift */; };
+		024985301FAF808300B8DDED /* NoitificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852F1FAF808300B8DDED /* NoitificationNameExtension.swift */; };
+		02CCAE011FB1C4A400C009F9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CCAE001FB1C4A400C009F9 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		021070341FB22076000EBC60 /* SupportFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportFile.swift; sourceTree = "<group>"; };
+		0217C4221FAEA60200D3D908 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0217C4251FAEA7FC00D3D908 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0237C05B1FAE943900D41C4F /* CCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0237C05E1FAE943900D41C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0237C0601FAE943900D41C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0237C0631FAE943900D41C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0237C0651FAE943900D41C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0237C0681FAE943900D41C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0237C06A1FAE943900D41C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02454C911FAF09DF006A1D88 /* MojButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MojButton.swift; sourceTree = "<group>"; };
+		02454C921FAF09DF006A1D88 /* MojLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MojLabel.swift; sourceTree = "<group>"; };
+		02454C931FAF09DF006A1D88 /* DesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		02454C941FAF09DF006A1D88 /* OOMojView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOMojView.swift; sourceTree = "<group>"; };
+		02454C951FAF09DF006A1D88 /* MojImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MojImage.swift; sourceTree = "<group>"; };
+		02454C961FAF09E0006A1D88 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		024822B91FB1062E0073B9EC /* FormatizovaniDatum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatizovaniDatum.swift; sourceTree = "<group>"; };
+		024822BB1FB111170073B9EC /* LokalizovaneStringe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokalizovaneStringe.swift; sourceTree = "<group>"; };
+		024985251FAF768100B8DDED /* MojPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MojPicker.swift; sourceTree = "<group>"; };
+		0249852B1FAF76F600B8DDED /* ModelPodataka.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPodataka.swift; sourceTree = "<group>"; };
+		0249852C1FAF76F600B8DDED /* Podatci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podatci.swift; sourceTree = "<group>"; };
+		0249852F1FAF808300B8DDED /* NoitificationNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoitificationNameExtension.swift; sourceTree = "<group>"; };
+		02CCAE001FB1C4A400C009F9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0217C4241FAEA6E200D3D908 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				0217C4221FAEA60200D3D908 /* FirstViewController.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		0217C4271FAEA80400D3D908 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				0217C4251FAEA7FC00D3D908 /* SecondViewController.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		022B9CF71FAE9DA6000BCB9F /* Disegnables */ = {
+			isa = PBXGroup;
+			children = (
+				02454C931FAF09DF006A1D88 /* DesignView.swift */,
+				02454C961FAF09E0006A1D88 /* GradientView.swift */,
+				02454C911FAF09DF006A1D88 /* MojButton.swift */,
+				02454C951FAF09DF006A1D88 /* MojImage.swift */,
+				02454C921FAF09DF006A1D88 /* MojLabel.swift */,
+				02454C941FAF09DF006A1D88 /* OOMojView.swift */,
+			);
+			path = Disegnables;
+			sourceTree = "<group>";
+		};
 		0237C0521FAE943900D41C4F = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +111,56 @@
 		0237C05D1FAE943900D41C4F /* CCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				0237C05E1FAE943900D41C4F /* AppDelegate.swift */,
-				0237C0601FAE943900D41C4F /* ViewController.swift */,
-				0237C0621FAE943900D41C4F /* Main.storyboard */,
-				0237C0651FAE943900D41C4F /* Assets.xcassets */,
+				02CCAE041FB1C76B00C009F9 /* AppDelegate */,
+				02CCAE021FB1C70100C009F9 /* Resources */,
+				0217C4241FAEA6E200D3D908 /* First */,
+				0217C4271FAEA80400D3D908 /* Second */,
+				02CCAE031FB1C73900C009F9 /* MainStoryboard */,
+				02CCAE001FB1C4A400C009F9 /* Media.xcassets */,
 				0237C0671FAE943900D41C4F /* LaunchScreen.storyboard */,
 				0237C06A1FAE943900D41C4F /* Info.plist */,
 			);
 			path = CCalendar;
+			sourceTree = "<group>";
+		};
+		024985241FAF762000B8DDED /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				0249852B1FAF76F600B8DDED /* ModelPodataka.swift */,
+				0249852C1FAF76F600B8DDED /* Podatci.swift */,
+				024985251FAF768100B8DDED /* MojPicker.swift */,
+				0249852F1FAF808300B8DDED /* NoitificationNameExtension.swift */,
+			);
+			name = Picker;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		02CCAE021FB1C70100C009F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				022B9CF71FAE9DA6000BCB9F /* Disegnables */,
+				024985241FAF762000B8DDED /* Picker */,
+				024822B91FB1062E0073B9EC /* FormatizovaniDatum.swift */,
+				024822BB1FB111170073B9EC /* LokalizovaneStringe.swift */,
+				021070341FB22076000EBC60 /* SupportFile.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02CCAE031FB1C73900C009F9 /* MainStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				0237C0621FAE943900D41C4F /* Main.storyboard */,
+			);
+			path = MainStoryboard;
+			sourceTree = "<group>";
+		};
+		02CCAE041FB1C76B00C009F9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0237C05E1FAE943900D41C4F /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +195,7 @@
 				TargetAttributes = {
 					0237C05A1FAE943900D41C4F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0237C0691FAE943900D41C4F /* LaunchScreen.storyboard in Resources */,
-				0237C0661FAE943900D41C4F /* Assets.xcassets in Resources */,
+				02CCAE011FB1C4A400C009F9 /* Media.xcassets in Resources */,
 				0237C0641FAE943900D41C4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +236,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0237C0611FAE943900D41C4F /* ViewController.swift in Sources */,
+				024985301FAF808300B8DDED /* NoitificationNameExtension.swift in Sources */,
+				02454C971FAF09E0006A1D88 /* MojButton.swift in Sources */,
+				02454C981FAF09E0006A1D88 /* MojLabel.swift in Sources */,
+				02454C9B1FAF09E0006A1D88 /* MojImage.swift in Sources */,
+				02454C991FAF09E0006A1D88 /* DesignView.swift in Sources */,
+				024985281FAF768200B8DDED /* MojPicker.swift in Sources */,
+				02454C9A1FAF09E0006A1D88 /* OOMojView.swift in Sources */,
+				024822BA1FB1062E0073B9EC /* FormatizovaniDatum.swift in Sources */,
+				0217C4231FAEA60200D3D908 /* FirstViewController.swift in Sources */,
+				021070351FB22076000EBC60 /* SupportFile.swift in Sources */,
 				0237C05F1FAE943900D41C4F /* AppDelegate.swift in Sources */,
+				0249852E1FAF76F600B8DDED /* Podatci.swift in Sources */,
+				0249852D1FAF76F600B8DDED /* ModelPodataka.swift in Sources */,
+				024822BC1FB111170073B9EC /* LokalizovaneStringe.swift in Sources */,
+				0217C4261FAEA7FC00D3D908 /* SecondViewController.swift in Sources */,
+				02454C9C1FAF09E0006A1D88 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -211,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -224,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -262,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -274,12 +390,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETPS2BTDG7;
 				INFOPLIST_FILE = CCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blikline.eu.CCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +408,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETPS2BTDG7;
 				INFOPLIST_FILE = CCalendar/Info.plist;
