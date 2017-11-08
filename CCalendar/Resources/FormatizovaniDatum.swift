@@ -41,6 +41,7 @@ class FormatizovaniDatum {
             return dateFormatter.string(from: datum).capitalized(with: lokalGlobalni)
         }
 
+        
     }
     
     func NElokalizovanaFormatizovanaStringa(lokal: Locale, kalendar: Calendar, segmentdatuma: TipFormata, datum: Date) -> String {
