@@ -19,7 +19,8 @@ class FirstViewController: UIViewController {
     let datum = Date()
     var globalniPickerCalendar: Calendar!
     var globalniDatum = Date()
-    
+    let menuPickerSelectedRow = "menuPickerRow"
+    let globalniDatumKey = "globalniDatumKey"
     
     //MARK: -
     //MARK: MAIN VIEW OUTLETS
@@ -127,6 +128,14 @@ class FirstViewController: UIViewController {
         
         globalniPickerCalendar = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar
 
+        if let targetSavings = UserDefaults.standard.value(forKey: menuPickerSelectedRow){
+            menuPicker.selectRow(targetSavings as! Int, inComponent: 0, animated: true)
+            
+        }
+        
+        if let datumSavings = UserDefaults.standard.value(forKey: globalniDatumKey){
+            globalniDatum = datumSavings as! Date
+        }
         
         title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
@@ -196,25 +205,40 @@ class FirstViewController: UIViewController {
     {
         prviLabel.text = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
-        drugiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar, segmentDatuma: .GODINA, datum: datum)
+        drugiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar, segmentDatuma: .GODINA, datum: globalniDatum)
         
-        treciLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar , segmentDatuma: .NAZIV_MESECA, datum: datum)
+        treciLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar , segmentDatuma: .NAZIV_MESECA, datum: globalniDatum)
         
-        cetvrtiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar,segmentDatuma: .NAZIV_DANA, datum: datum)
+        cetvrtiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar,segmentDatuma: .NAZIV_DANA, datum: globalniDatum)
         
-        petiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar, segmentDatuma: .DATUM, datum: datum)
+        petiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar, segmentDatuma: .DATUM, datum: globalniDatum)
         
         title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
         globalniPickerCalendar = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar
-
+        
+        UserDefaults.standard.set(menuPicker.selectedRow(inComponent: 0), forKey: menuPickerSelectedRow)
+        
     }
     
   @objc func aplikacijaCePostatiVidljiva()
   {
     sestiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: Locale.autoupdatingCurrent.calendar,  segmentDatuma: .FULL, datum: datum).capitalized(with: lokal)
-    
+
     sedmiLabel.text = lokal.localizedString(for: Locale.autoupdatingCurrent.calendar.identifier)?.capitalized(with: lokal)
+    
+    
+    if let targetSavings = UserDefaults.standard.value(forKey: menuPickerSelectedRow){
+        menuPicker.selectRow(targetSavings as! Int, inComponent: 0, animated: true)
+        
+    }
+    
+    
+    
+    
+    
+    
+    
     }
     
     
@@ -331,6 +355,8 @@ class FirstViewController: UIViewController {
         sestiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: Locale.autoupdatingCurrent.calendar,  segmentDatuma: .FULL, datum: globalniDatum).capitalized(with: lokal)
         
         sedmiLabel.text = lokal.localizedString(for: Locale.autoupdatingCurrent.calendar.identifier)?.capitalized(with: lokal)
+        
+        UserDefaults.standard.set(globalniDatum, forKey: globalniDatumKey)
         
     }
 
