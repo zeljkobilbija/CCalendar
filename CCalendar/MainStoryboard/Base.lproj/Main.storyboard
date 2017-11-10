@@ -197,7 +197,7 @@
                                             <constraint firstAttribute="height" constant="44" id="enD-hJ-svF"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                        <color key="textColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.60245378729999999" green="0.12212532199999999" blue="0.081407313290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
@@ -216,13 +216,13 @@
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpy-HK-lfA" customClass="MojButton" customModule="CCalendar" customModuleProvider="target">
                                         <rect key="frame" x="50" y="484" width="200" height="50"/>
-                                        <color key="backgroundColor" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="0.36204769736842107" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.60245378729999999" green="0.12212532199999999" blue="0.081407313290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="4pd-1b-D0L"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                         <state key="normal" title="OK">
-                                            <color key="titleColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
