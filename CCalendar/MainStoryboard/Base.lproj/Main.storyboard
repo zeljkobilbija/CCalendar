@@ -35,7 +35,7 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="bojaIvice">
-                                        <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
@@ -45,7 +45,7 @@
                                     <constraint firstAttribute="height" constant="44" id="HwW-8o-B8O"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="26"/>
-                                <color key="textColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                 <userDefinedRuntimeAttributes>
@@ -64,7 +64,7 @@
                                     <constraint firstAttribute="height" constant="30" id="TTQ-mA-Aet"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
-                                <color key="textColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                 <userDefinedRuntimeAttributes>
@@ -115,7 +115,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="my5-Og-rbJ" customClass="DesignView" customModule="CCalendar" customModuleProvider="target">
                                 <rect key="frame" x="127.5" y="263.5" width="120" height="140"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="MX7-va-KF2" customClass="MojImage" customModule="CCalendar" customModuleProvider="target">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ffbg" translatesAutoresizingMaskIntoConstraints="NO" id="MX7-va-KF2" customClass="MojImage" customModule="CCalendar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <userDefinedRuntimeAttributes>
@@ -157,7 +157,7 @@
                                             <constraint firstAttribute="height" constant="100" id="gbN-xU-5NE"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="46"/>
-                                        <color key="textColor" red="0.53427737951278687" green="0.099567227065563202" blue="0.062683515250682831" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="debljinaIvice">
@@ -197,7 +197,7 @@
                                             <constraint firstAttribute="height" constant="44" id="enD-hJ-svF"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
-                                        <color key="textColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
@@ -208,9 +208,6 @@
                                             <userDefinedRuntimeAttribute type="number" keyPath="debljinaIvice">
                                                 <real key="value" value="0.0"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="bojaIvice">
-                                                <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clip" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </label>
@@ -219,13 +216,13 @@
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpy-HK-lfA" customClass="MojButton" customModule="CCalendar" customModuleProvider="target">
                                         <rect key="frame" x="50" y="484" width="200" height="50"/>
-                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.39000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="0.36204769736842107" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="4pd-1b-D0L"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                         <state key="normal" title="OK">
-                                            <color key="titleColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="titleColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -236,7 +233,7 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clip" value="YES"/>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="value" red="0.66694158319999997" green="0.13519784809999999" blue="0.090121306479999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -261,13 +258,13 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
-                                        <color key="value" red="0.89411764709999997" green="0.70980392160000005" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="ThreedColor">
-                                        <color key="value" red="0.89411764709999997" green="0.70980392160000005" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
-                                        <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -294,25 +291,25 @@
                         <viewLayoutGuide key="safeArea" id="beC-iz-47a"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
-                                <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="ThreedColor">
-                                <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
-                                <color key="value" red="0.89411764709999997" green="0.70980392160000005" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="Q3b-3H-Bdd">
                         <barButtonItem key="leftBarButtonItem" image="facebookworldSmall" id="P0z-y1-ixS">
-                            <color key="tintColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="tintColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="navBarButton:" destination="b31-3Y-axz" id="Uxr-l3-Uzg"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="facebookw" id="g2c-KO-swS">
-                            <color key="tintColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="tintColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -346,13 +343,13 @@
                         <viewLayoutGuide key="safeArea" id="v8S-lD-eXK"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
-                                <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="ThreedColor">
-                                <color key="value" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
-                                <color key="value" red="0.89411764709999997" green="0.70980392160000005" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
@@ -371,7 +368,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="ZJp-Ps-hQ9" kind="relationship" relationship="viewControllers" id="B6j-av-yfU"/>
@@ -392,7 +389,7 @@
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" red="0.42745098040000001" green="0.19215686269999999" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="textColor" red="0.043606422839999999" green="0.34165862200000002" blue="0.98702603580000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -406,10 +403,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg" width="120" height="140"/>
         <image name="facebook1" width="44" height="44"/>
         <image name="facebookkonvert" width="44" height="44"/>
         <image name="facebookw" width="44" height="44"/>
         <image name="facebookworldSmall" width="44" height="44"/>
+        <image name="ffbg" width="960" height="1120"/>
     </resources>
 </document>

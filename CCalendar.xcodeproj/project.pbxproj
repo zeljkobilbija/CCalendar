@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		021070351FB22076000EBC60 /* SupportFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021070341FB22076000EBC60 /* SupportFile.swift */; };
+		021555641FB5A7AC00EA4992 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021555631FB5A7AC00EA4992 /* Media.xcassets */; };
 		0217C4231FAEA60200D3D908 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0217C4221FAEA60200D3D908 /* FirstViewController.swift */; };
 		0217C4261FAEA7FC00D3D908 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0217C4251FAEA7FC00D3D908 /* SecondViewController.swift */; };
 		0237C05F1FAE943900D41C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0237C05E1FAE943900D41C4F /* AppDelegate.swift */; };
@@ -25,11 +26,11 @@
 		0249852D1FAF76F600B8DDED /* ModelPodataka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852B1FAF76F600B8DDED /* ModelPodataka.swift */; };
 		0249852E1FAF76F600B8DDED /* Podatci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852C1FAF76F600B8DDED /* Podatci.swift */; };
 		024985301FAF808300B8DDED /* NoitificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852F1FAF808300B8DDED /* NoitificationNameExtension.swift */; };
-		02CCAE011FB1C4A400C009F9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CCAE001FB1C4A400C009F9 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		021070341FB22076000EBC60 /* SupportFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportFile.swift; sourceTree = "<group>"; };
+		021555631FB5A7AC00EA4992 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		0217C4221FAEA60200D3D908 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		0217C4251FAEA7FC00D3D908 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0237C05B1FAE943900D41C4F /* CCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,7 +50,6 @@
 		0249852B1FAF76F600B8DDED /* ModelPodataka.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPodataka.swift; sourceTree = "<group>"; };
 		0249852C1FAF76F600B8DDED /* Podatci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podatci.swift; sourceTree = "<group>"; };
 		0249852F1FAF808300B8DDED /* NoitificationNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoitificationNameExtension.swift; sourceTree = "<group>"; };
-		02CCAE001FB1C4A400C009F9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 				0217C4241FAEA6E200D3D908 /* First */,
 				0217C4271FAEA80400D3D908 /* Second */,
 				02CCAE031FB1C73900C009F9 /* MainStoryboard */,
-				02CCAE001FB1C4A400C009F9 /* Media.xcassets */,
+				021555631FB5A7AC00EA4992 /* Media.xcassets */,
 				0237C0671FAE943900D41C4F /* LaunchScreen.storyboard */,
 				0237C06A1FAE943900D41C4F /* Info.plist */,
 			);
@@ -224,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0237C0691FAE943900D41C4F /* LaunchScreen.storyboard in Resources */,
-				02CCAE011FB1C4A400C009F9 /* Media.xcassets in Resources */,
+				021555641FB5A7AC00EA4992 /* Media.xcassets in Resources */,
 				0237C0641FAE943900D41C4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +389,7 @@
 		0237C06E1FAE943900D41C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon3;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -407,7 +407,7 @@
 		0237C06F1FAE943900D41C4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon3;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
