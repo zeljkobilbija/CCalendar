@@ -26,6 +26,7 @@ class FirstViewController: UIViewController {
     //MARK: MAIN VIEW OUTLETS
     
     
+    
     //Constrain OUTLET
     @IBOutlet weak var LidingConstrain: NSLayoutConstraint!
     
