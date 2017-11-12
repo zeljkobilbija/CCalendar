@@ -44,7 +44,7 @@ extension MojPicker: UIPickerViewDelegate
         label.textColor = UIColor.cyan
         //label.textColor = UIColor(red: 2/255, green: 206/255, blue: 254/255, alpha: 1)
         label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.light)
+        label.font = UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.thin)
 
         view.addSubview(label)
         

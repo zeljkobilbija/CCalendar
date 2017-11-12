@@ -10,14 +10,14 @@ import Foundation
 
 
     
-let selectCalendarString = NSLocalizedString("select calendar", comment: "Select calendar").capitalized
-let convertString  = NSLocalizedString("convert", comment: "convert").capitalized
-let afrika = NSLocalizedString("africa", comment: "Africa").capitalized
-let azija = NSLocalizedString("asia", comment: "Asia").capitalized
-let evropa = NSLocalizedString("europa", comment: "Europa").capitalized
-let australija = NSLocalizedString("australia", comment: "Australia").capitalized
-let severnaAmerika = NSLocalizedString("north America", comment: "North America").capitalized
-let juznaAmerika = NSLocalizedString("south America", comment: "South America").capitalized
+//let selectCalendarString = NSLocalizedString("select calendar", comment: "Select calendar").capitalized
+let convertString  = NSLocalizedString("Convert", comment: "convert").capitalized
+//let afrika = NSLocalizedString("africa", comment: "Africa").capitalized
+//let azija = NSLocalizedString("asia", comment: "Asia").capitalized
+//let evropa = NSLocalizedString("europa", comment: "Europa").capitalized
+//let australija = NSLocalizedString("australia", comment: "Australia").capitalized
+//let severnaAmerika = NSLocalizedString("north America", comment: "North America").capitalized
+//let juznaAmerika = NSLocalizedString("south America", comment: "South America").capitalized
 
     
 
