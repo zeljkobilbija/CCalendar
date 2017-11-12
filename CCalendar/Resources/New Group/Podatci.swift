@@ -2,17 +2,13 @@
 import Foundation
 
 class Podatci{
-    
-    
-    enum CCTipFormata: Int{
-        case DATUM = 1
-        case NAZIV_DANA = 2
-        case NAZIV_MESECA = 3
-        case GODINA = 4
-    }
-    
-
-    
+//
+//    enum CCTipFormata: Int{
+//        case DATUM = 1
+//        case NAZIV_DANA = 2
+//        case NAZIV_MESECA = 3
+//        case GODINA = 4
+//    }
     
     class func getDate() -> [ModelPodataka]  {
         var data = [ModelPodataka]()
@@ -53,42 +49,6 @@ class Podatci{
         return data
         
     }
-    
-    
-    //MARK:-
-    //MARK:  VAZNO!
-    // Ova funcija treba da vraca lokalizovane stringe za dan
-    // u mesecu, naziv dana, meseca i godinu. Svbe to formatizovano i
-    // lokalizovano!!!
-    
-    
-    
-//    class func format(tipFormata: CCTipFormata) -> String {
-//
-//        //let dateFormatter = DateFormatter()
-//        //let datum = Date()
-//
-//
-//        switch tipFormata {
-//        case .DATUM :
-//
-//            //dateFormatter.setLocalizedDateFormatFromTemplate("d")
-//            return "d"
-//        case .NAZIV_DANA:
-//            //dateFormatter.setLocalizedDateFormatFromTemplate("EEEE")
-//            return "EEEE"
-//        case .NAZIV_MESECA:
-//            //dateFormatter.setLocalizedDateFormatFromTemplate("MMMM")
-//            return "MMMM"
-//        case .GODINA:
-//            //dateFormatter.setLocalizedDateFormatFromTemplate("yyyy")
-//            return "yyyy"
-//        }
-//    }
-
-    
-    
-     //MARK:-
     
     
 }

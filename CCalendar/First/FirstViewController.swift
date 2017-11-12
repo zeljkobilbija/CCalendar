@@ -1,10 +1,4 @@
-//
-//  FirstViewController.swift
-//  CCalendar
-//
-//  Created by Zeljko Bilbija on 05/11/17.
-//  Copyright © 2017 Zeljko Bilbija. All rights reserved.
-//
+
 
 import UIKit
 
@@ -155,11 +149,6 @@ class FirstViewController: UIViewController {
 
         sedmiLabel.text = lokal.localizedString(for: Locale.autoupdatingCurrent.calendar.identifier)?.capitalized(with: lokal)
 
-        
-        //Tekst na MenuView labelu-Select calendar
-        selectcalendarlabel.text = selectCalendarString
-    
-
         //MARK: SWIPE ACTIONS
         
         let leviSwipe = UISwipeGestureRecognizer(target: self, action: #selector(leftSwipeAction(swipe:)))
@@ -217,8 +206,8 @@ class FirstViewController: UIViewController {
         title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
         globalniPickerCalendar = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar
-        
         UserDefaults.standard.set(menuPicker.selectedRow(inComponent: 0), forKey: menuPickerSelectedRow)
+
         
     }
     
@@ -248,31 +237,38 @@ class FirstViewController: UIViewController {
     {
 
         
-                UIView.transition(with: datumView, duration: 0.6, options:[ .transitionFlipFromRight, .curveEaseInOut ]  , animations: nil, completion: nil)
+//                UIView.transition(with: datumView, duration: 0.6, options:[ .transitionFlipFromRight, .curveEaseInOut ]  , animations: nil, completion: nil)
+        
+        UIView.transition(with: datumView, duration: 0.6, options: [.transitionFlipFromRight, .curveEaseInOut], animations: nil) { (true) in
+            self.updateUI()
+        }
+        
         
         dodajDan()
-        updateUI()
+        //updateUI()
         
     }
     
     @objc    func desniSwipe(swipe: UISwipeGestureRecognizer)
     {
         
-                UIView.transition(with: datumView, duration: 0.6, options:[ .transitionFlipFromLeft, .curveEaseInOut ]  , animations: nil, completion: nil)
-        oduzmiDan()
-        updateUI()
+        UIView.transition(with: datumView, duration: 0.6, options: [.transitionFlipFromLeft, .curveEaseInOut], animations: nil) { (true) in
+            self.updateUI()
+        }
         
+        oduzmiDan()
         
     }
     
     @objc  func dupliTap(swipe: UITapGestureRecognizer)
     {
         
-               UIView.transition(with: datumView, duration: 0.6, options:[ .transitionFlipFromBottom, .curveEaseInOut, .beginFromCurrentState ]  , animations: nil, completion: nil)
+        UIView.transition(with: datumView, duration: 0.6, options: [.transitionFlipFromBottom, .curveEaseInOut], animations: nil) { (true) in
+            self.updateUI()
+        }
         
         vratiNaTrenutniDatum()
-        updateUI()
-        
+
     }
 
     //MARK: -

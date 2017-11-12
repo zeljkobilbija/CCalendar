@@ -4,7 +4,7 @@ import UIKit
 class MojPicker: UIPickerView {
 
     var pickerovModelPodataka: [ModelPodataka]!
-    var lokal: Locale!
+   
 
 }
 
@@ -33,7 +33,7 @@ extension MojPicker: UIPickerViewDelegate
     
     func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView
     {
-       // lokal = Locale(identifier: Locale.preferredLanguages[0])
+      
 
         let view = UIView(frame: CGRect(x: 0, y: 0, width: pickerView.bounds.width, height: 30))
         
@@ -41,7 +41,8 @@ extension MojPicker: UIPickerViewDelegate
 
         
         label.text = pickerovModelPodataka[row].CCNazivKalendara
-        label.textColor = UIColor.white
+        //label.textColor = UIColor.black
+        label.textColor = UIColor(red: 2/255, green: 206/255, blue: 254/255, alpha: 1)
         label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.ultraLight)
 
@@ -55,7 +56,6 @@ extension MojPicker: UIPickerViewDelegate
             NotificationCenter.default.post(name: .mojPickerDidChange, object: self)
    
         }
-    
     
  }
 
