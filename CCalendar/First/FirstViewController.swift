@@ -132,7 +132,7 @@ class FirstViewController: UIViewController {
             globalniDatum = datumSavings as! Date
         }
         
-        title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
+        //title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
         prviLabel.text = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
@@ -203,7 +203,7 @@ class FirstViewController: UIViewController {
         
         petiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar, segmentDatuma: .DATUM, datum: globalniDatum)
         
-        title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
+        //title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
         globalniPickerCalendar = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCkalendar
         UserDefaults.standard.set(menuPicker.selectedRow(inComponent: 0), forKey: menuPickerSelectedRow)
@@ -239,7 +239,7 @@ class FirstViewController: UIViewController {
         
 //                UIView.transition(with: datumView, duration: 0.6, options:[ .transitionFlipFromRight, .curveEaseInOut ]  , animations: nil, completion: nil)
         
-        UIView.transition(with: datumView, duration: 0.6, options: [.transitionFlipFromRight, .curveEaseInOut], animations: nil) { (true) in
+        UIView.transition(with: datumView, duration: 0.35, options: [.transitionFlipFromRight, .curveEaseInOut], animations: nil) { (true) in
             self.updateUI()
         }
         
@@ -252,7 +252,7 @@ class FirstViewController: UIViewController {
     @objc    func desniSwipe(swipe: UISwipeGestureRecognizer)
     {
         
-        UIView.transition(with: datumView, duration: 0.6, options: [.transitionFlipFromLeft, .curveEaseInOut], animations: nil) { (true) in
+        UIView.transition(with: datumView, duration: 0.35, options: [.transitionFlipFromLeft, .curveEaseInOut], animations: nil) { (true) in
             self.updateUI()
         }
         
@@ -263,7 +263,7 @@ class FirstViewController: UIViewController {
     @objc  func dupliTap(swipe: UITapGestureRecognizer)
     {
         
-        UIView.transition(with: datumView, duration: 0.6, options: [.transitionFlipFromBottom, .curveEaseInOut], animations: nil) { (true) in
+        UIView.transition(with: datumView, duration: 0.35, options: [.transitionFlipFromBottom, .curveEaseInOut], animations: nil) { (true) in
             self.updateUI()
         }
         

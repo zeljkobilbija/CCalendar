@@ -420,9 +420,12 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Convert" image="facebookworldSmall" id="elc-Jd-S9z"/>
+                    <tabBarItem key="tabBarItem" title="Convert" image="facebook2" id="elc-Jd-S9z"/>
                     <connections>
                         <outlet property="datumPicker" destination="khQ-ag-pDo" id="dVv-Dp-pso"/>
+                        <outlet property="donjiLabel" destination="shu-Br-aEc" id="LWy-GK-SwI"/>
+                        <outlet property="donjiPicker" destination="riT-u9-spW" id="rUS-F8-NoX"/>
+                        <outlet property="gornjiPicker" destination="a7P-BE-BPD" id="5UR-2x-SE7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="no1-Kl-gAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -474,9 +477,9 @@
     </scenes>
     <resources>
         <image name="facebook1" width="44" height="44"/>
+        <image name="facebook2" width="44" height="44"/>
         <image name="facebookkonvert" width="44" height="44"/>
         <image name="facebookw" width="44" height="44"/>
-        <image name="facebookworldSmall" width="44" height="44"/>
         <image name="ffbg" width="960" height="1120"/>
     </resources>
 </document>
