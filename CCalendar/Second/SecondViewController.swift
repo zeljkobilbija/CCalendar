@@ -18,6 +18,12 @@ class SecondViewController: UIViewController {
     var picker: MojPicker!
     var lokal: Locale!
     var globalniDatumM = Date()
+    var datumPickerDatum = "datumPickerdatum"
+    var datumPickerCalendar = "datumPickerCalendar"
+    var donjiLabelText = "donjiLabelText"
+    var gornjiPickerRow = "gornjiPickerRow"
+    var donjiPickerRow = "donjiPickerRow"
+    
     
     
     
@@ -36,6 +42,31 @@ class SecondViewController: UIViewController {
         
         donjiPicker.dataSource = picker
         donjiPicker.delegate = picker
+        
+        
+        //???????????????????????????
+
+        if let pickerDatum = UserDefaults.standard.value(forKey: datumPickerDatum){
+            datumPicker.date = pickerDatum as! Date
+        }
+        
+        if let pickerCalendar = UserDefaults.standard.value(forKey: datumPickerCalendar) {
+            datumPicker.calendar = pickerCalendar as! Calendar
+        }
+        
+        if let label = UserDefaults.standard.value(forKey: donjiLabelText) {
+            donjiLabel.text = label as? String
+        }
+        
+        if let gornjiRow = UserDefaults.standard.value(forKey: gornjiPickerRow) {
+            gornjiPicker.selectRow(gornjiRow as! Int, inComponent: 0, animated: true)
+        }
+        
+        if let donjiRow = UserDefaults.standard.value(forKey: donjiPickerRow) {
+            donjiPicker.selectRow(donjiRow as! Int, inComponent: 0, animated: true)
+        }
+        //???????????????????????????
+
         
         NotificationCenter.default.addObserver(self, selector: #selector(metodZaNotifikaciju ), name: .mojPickerDidChange, object: nil)
         let calendarZaDatumPicker = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0 )].CCkalendar
@@ -99,6 +130,10 @@ class SecondViewController: UIViewController {
         
         donjiLabel.text = formater.string(from: datum).capitalized(with: lokal)
         
+        //???????????????????????????
+        UserDefaults.standard.set(donjiLabel.text, forKey: donjiLabelText)
+        
+        
     }
     
     
@@ -133,6 +168,14 @@ class SecondViewController: UIViewController {
         donjiLabel.text = formater.string(from: datum).capitalized(with: lokal)
         globalniDatumM = datumPicker.date
         
+        
+        //???????????????????????????
+
+        UserDefaults.standard.set(datumPicker.date, forKey: datumPickerDatum)
+        UserDefaults.standard.set(kalendar , forKey: datumPickerCalendar)
+        UserDefaults.standard.set(gornjiPicker.selectedRow(inComponent: 0), forKey: gornjiPickerRow)
+        UserDefaults.standard.set(donjiPicker.selectedRow(inComponent: 0), forKey: donjiPickerRow)
+        
     }
     
     
@@ -155,7 +198,7 @@ class SecondViewController: UIViewController {
         datumPicker.date = noviDatum!
         globalniDatumM = noviDatum!
         datumPickerDidChanged(datumPicker)
-        
+        UserDefaults.standard.set(datumPicker.date, forKey: datumPickerDatum)
         
     }
     
@@ -166,6 +209,10 @@ class SecondViewController: UIViewController {
         datumPicker.date = noviDatum!
         globalniDatumM = noviDatum!
         datumPickerDidChanged(datumPicker)
+        
+        //???????????????????????????
+
+        UserDefaults.standard.set(datumPicker.date, forKey: datumPickerDatum)
     }
     
     @objc func dupliTapFunkcija( tap: UITapGestureRecognizer)
@@ -174,6 +221,10 @@ class SecondViewController: UIViewController {
         datumPicker.date = danasnjiDatum
         globalniDatumM = danasnjiDatum
         datumPickerDidChanged(datumPicker)
+        
+        //???????????????????????????
+
+        UserDefaults.standard.set(datumPicker.date, forKey: datumPickerDatum)
     }
     
     
