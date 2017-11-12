@@ -132,7 +132,7 @@ class FirstViewController: UIViewController {
             globalniDatum = datumSavings as! Date
         }
         
-        //title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
+        title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
         prviLabel.text = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
         
