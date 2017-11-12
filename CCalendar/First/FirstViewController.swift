@@ -304,6 +304,7 @@ class FirstViewController: UIViewController {
         globalniDatum = noviDatum!
     }
     
+    
     func vratiNaTrenutniDatum() {
 
         globalniDatum = Date()

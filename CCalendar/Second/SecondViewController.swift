@@ -25,6 +25,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = convertString
+        
         lokal = Locale(identifier: Locale.preferredLanguages[0])
         
         picker = MojPicker()
@@ -42,6 +43,8 @@ class SecondViewController: UIViewController {
         datumPicker.calendar = calendarZaDatumPicker
         datumPicker.calendar.locale = lokal
         datumPicker.locale = lokal
+        
+        datumPicker.date = globalniDatumM
         
         let kalendarZaDonjiLabel = picker.pickerovModelPodataka[donjiPicker.selectedRow(inComponent: 0)].CCkalendar
         
@@ -128,6 +131,7 @@ class SecondViewController: UIViewController {
         formater.calendar = picker.pickerovModelPodataka[donjiPicker.selectedRow(inComponent: 0)].CCkalendar
         
         donjiLabel.text = formater.string(from: datum).capitalized(with: lokal)
+        globalniDatumM = datumPicker.date
         
     }
     
@@ -145,11 +149,23 @@ class SecondViewController: UIViewController {
 //
 //        let noviDatum = calendar?.date(byAdding: datekomponents, to: globalniDatumM)
 //        globalniDatumM = noviDatum!
+
+        let kalendar = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0)].CCkalendar
+        let noviDatum = kalendar?.date(byAdding: .day, value: 1, to: globalniDatumM)
+        datumPicker.date = noviDatum!
+        globalniDatumM = noviDatum!
+        datumPickerDidChanged(datumPicker)
+        
+        
     }
     
     @objc func desniSwipeFunkcija(swipe: UISwipeGestureRecognizer)
     {
-        
+        let kalendar = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0)].CCkalendar
+        let noviDatum = kalendar?.date(byAdding: .day, value: -1, to: globalniDatumM)
+        datumPicker.date = noviDatum!
+        globalniDatumM = noviDatum!
+        datumPickerDidChanged(datumPicker)
     }
     
     @objc func dupliTapFunkcija( tap: UITapGestureRecognizer)
@@ -157,6 +173,7 @@ class SecondViewController: UIViewController {
         let danasnjiDatum = Date()
         datumPicker.date = danasnjiDatum
         globalniDatumM = danasnjiDatum
+        datumPickerDidChanged(datumPicker)
     }
     
     
