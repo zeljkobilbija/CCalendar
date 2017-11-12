@@ -354,6 +354,9 @@
                                 <date key="date" timeIntervalSinceReferenceDate="529956649.28526998">
                                     <!--2017-10-17 18:10:49 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="datumPickerDidChanged:" destination="Dn6-sM-gZx" eventType="valueChanged" id="REK-jL-oWt"/>
+                                </connections>
                             </datePicker>
                             <pickerView tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7P-BE-BPD" customClass="MojPicker" customModule="CCalendar" customModuleProvider="target">
                                 <rect key="frame" x="10" y="145" width="355" height="120"/>
