@@ -10,16 +10,14 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var datumPicker: UIDatePicker!
     override func viewDidLoad() {
         super.viewDidLoad()
         title = convertString
+        datumPicker.setValue(UIColor(red: 2/255, green: 206/255, blue: 254/255, alpha: 1)  , forKey: "textColor")
         
     
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 }
