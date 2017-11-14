@@ -9,12 +9,16 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+//MARK:-
+    //MARK:-
+    //MARK:  OUTLETS
     @IBOutlet weak var datumPicker: UIDatePicker!
     @IBOutlet weak var gornjiPicker: MojPicker!
     @IBOutlet weak var donjiPicker: MojPicker!
     @IBOutlet weak var donjiLabel: MojLabel!
-    
+    //MARK:-
+    //MARK:-
+    //MARK: PROPERTIES
     var picker: MojPicker!
     var lokal: Locale!
     var globalniDatumM: Date!
@@ -23,16 +27,25 @@ class SecondViewController: UIViewController {
     var donjiLabelText = "donjiLabelText"
     var gornjiPickerRow = "gornjiPickerRow"
     var donjiPickerRow = "donjiPickerRow"
-    
-    
-    
-    
-    
+    //MARK:-
+     //MARK:-
+    //MARK: OVERRIDE VIEWCONTROLLER FUNC
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         title = convertString
-        let danasnjidatum = Date()
-        globalniDatumM = danasnjidatum
+        //let danasnjidatum = Date()
+        //globalniDatumM = danasnjidatum
+    
+        if let startniGlobalnidatum = UserDefaults.standard.value(forKey: datumPickerDatum) {
+            globalniDatumM = startniGlobalnidatum as! Date
+            
+        }else{
+            globalniDatumM = Date()
+        }
+        
+        datumPicker.date = globalniDatumM
+        
         lokal = Locale(identifier: Locale.preferredLanguages[0])
         
         picker = MojPicker()
@@ -45,28 +58,28 @@ class SecondViewController: UIViewController {
         donjiPicker.delegate = picker
         
         
-        //???????????????????????????
-//        if let pickerDatum = UserDefaults.standard.value(forKey: datumPickerDatum){
-//            datumPicker.date = pickerDatum as! Date
-//        }
-        
-//        if let pickerCalendar = UserDefaults.standard.value(forKey: datumPickerCalendar) {
-//            datumPicker.calendar = pickerCalendar as! Calendar
-//        }
-//
-//        if let label = UserDefaults.standard.value(forKey: donjiLabelText) {
-//            donjiLabel.text = label as? String
-//        }
-//
-//        if let gornjiRow = UserDefaults.standard.value(forKey: gornjiPickerRow) {
-//            gornjiPicker.selectRow(gornjiRow as! Int, inComponent: 0, animated: true)
-//        }
-//
-//        if let donjiRow = UserDefaults.standard.value(forKey: donjiPickerRow) {
-//            donjiPicker.selectRow(donjiRow as! Int, inComponent: 0, animated: true)
-//        }
-        //???????????????????????????
 
+        if let pickerDatum = UserDefaults.standard.value(forKey: datumPickerDatum){
+            datumPicker.date = pickerDatum as! Date
+        }
+        
+        if let pickerCalendar = UserDefaults.standard.value(forKey: datumPickerCalendar) {
+            datumPicker.calendar = pickerCalendar as! Calendar
+        }
+
+        if let label = UserDefaults.standard.value(forKey: donjiLabelText) {
+            donjiLabel.text = label as? String
+        }
+
+        if let gornjiRow = UserDefaults.standard.value(forKey: gornjiPickerRow) {
+            gornjiPicker.selectRow(gornjiRow as! Int, inComponent: 0, animated: true)
+        }
+
+        if let donjiRow = UserDefaults.standard.value(forKey: donjiPickerRow) {
+            donjiPicker.selectRow(donjiRow as! Int, inComponent: 0, animated: true)
+        }
+
+        
         
         NotificationCenter.default.addObserver(self, selector: #selector(metodZaNotifikaciju ), name: .mojPickerDidChange, object: nil)
         let calendarZaDatumPicker = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0 )].CCkalendar
@@ -85,9 +98,7 @@ class SecondViewController: UIViewController {
         formater.locale = lokal
         
         donjiLabel.text = formater.string(from: datumPicker.date).capitalized(with: lokal)
-//        datumPicker.setValue(UIColor(red: 2/255, green: 206/255, blue: 254/255, alpha: 1)  , forKey: "textColor")
-//        datumPicker.setValue(UIColor(red: 154/255, green: 31/255, blue: 21/255, alpha: 1)  , forKey: "textColor")
-        
+  
         datumPicker.setValue(UIColor.cyan , forKey: "textColor")
         
         let leviSwipe = UISwipeGestureRecognizer(target: self, action: #selector(leviSwipeFunkcija(seipe:)))
@@ -103,10 +114,37 @@ class SecondViewController: UIViewController {
         self.view.addGestureRecognizer(dupliTap)
         
     }
+  
+    override func viewWillAppear(_ animated: Bool) {
+
+                if let pickerDatum = UserDefaults.standard.value(forKey: datumPickerDatum){
+                    datumPicker.date = pickerDatum as! Date
+                }
+        
+                if let pickerCalendar = UserDefaults.standard.value(forKey: datumPickerCalendar) {
+                    datumPicker.calendar = pickerCalendar as! Calendar
+                }
+        
+                if let label = UserDefaults.standard.value(forKey: donjiLabelText) {
+                    donjiLabel.text = label as? String
+                }
+        
+                if let gornjiRow = UserDefaults.standard.value(forKey: gornjiPickerRow) {
+                    gornjiPicker.selectRow(gornjiRow as! Int, inComponent: 0, animated: true)
+                }
+        
+                if let donjiRow = UserDefaults.standard.value(forKey: donjiPickerRow) {
+                    donjiPicker.selectRow(donjiRow as! Int, inComponent: 0, animated: true)
+                }
+        
+
+    }
+    //MARK:-
     
-    
-    @objc func metodZaNotifikaciju()
-    {
+     //MARK:-
+    //MARK: MOJ PICKER PROMENA ROWA
+    @objc func metodZaNotifikaciju(){
+        
         lokal = Locale(identifier: Locale.preferredLanguages[0])
         datumPicker.locale = lokal
         datumPicker.calendar = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0)].CCkalendar
@@ -132,18 +170,16 @@ class SecondViewController: UIViewController {
         formater.calendar = picker.pickerovModelPodataka[donjiPicker.selectedRow(inComponent: 0)].CCkalendar
         
         donjiLabel.text = formater.string(from: globalniDatumM).capitalized(with: lokal)
-        
-        //???????????????????????????
-//        UserDefaults.standard.set(donjiLabel.text, forKey: donjiLabelText)
-//        UserDefaults.standard.set(globalniDatumM, forKey: datumPickerDatum)
 
-        
+        UserDefaults.standard.set(gornjiPicker.selectedRow(inComponent: 0), forKey: gornjiPickerRow)
+        UserDefaults.standard.set(donjiPicker.selectedRow(inComponent: 0), forKey: donjiPickerRow)
+
     }
-    
-    
-    
-    @IBAction func datumPickerDidChanged(_ sender: UIDatePicker)
-    {
+     //MARK:-
+    //MARK:-
+    //MARK: DATUM PICKER JE PROMERNJEN
+    @IBAction func datumPickerDidChanged(_ sender: UIDatePicker){
+        
         lokal = Locale(identifier: Locale.preferredLanguages[0])
         let kalendar = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0 )].CCkalendar
 
@@ -151,8 +187,17 @@ class SecondViewController: UIViewController {
         sender.calendar = kalendar
         sender.calendar.locale = lokal
         
-        //let datum = datumPicker.date
-        globalniDatumM = datumPicker.date
+        if let startniGlobalnidatum = UserDefaults.standard.value(forKey: datumPickerDatum) {
+            globalniDatumM = startniGlobalnidatum as! Date
+            
+        }else{
+            globalniDatumM = Date()
+        }
+        
+        //datumPicker.date = globalniDatumM
+        
+        
+        //globalniDatumM = datumPicker.date
         var komponenteDatuma = DateComponents()
         komponenteDatuma.calendar = kalendar
         
@@ -172,55 +217,41 @@ class SecondViewController: UIViewController {
         donjiLabel.text = formater.string(from: globalniDatumM).capitalized(with: lokal)
         globalniDatumM = datumPicker.date
         
+        UserDefaults.standard.set(datumPicker.date, forKey: datumPickerDatum)
         
-        //??????????????????????????
-//        UserDefaults.standard.set(globalniDatumM, forKey: datumPickerDatum)
-//        UserDefaults.standard.set(kalendar , forKey: datumPickerCalendar)
-//        UserDefaults.standard.set(gornjiPicker.selectedRow(inComponent: 0), forKey: gornjiPickerRow)
-//        UserDefaults.standard.set(donjiPicker.selectedRow(inComponent: 0), forKey: donjiPickerRow)
-        
+        donjiLabel.text = formater.string(from: datumPicker.date).capitalized(with: lokal)
     }
-    
-    
-    @objc func leviSwipeFunkcija(seipe: UISwipeGestureRecognizer)
-    {
-
-
+    //MARK:-
+    //MARK:-
+    //MARK: SWIPE GESTURES
+    @objc func leviSwipeFunkcija(seipe: UISwipeGestureRecognizer){
+        
         let kalendar = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0)].CCkalendar
         let noviDatum = kalendar?.date(byAdding: .day, value: 1, to: globalniDatumM)
         datumPicker.date = noviDatum!
         globalniDatumM = noviDatum!
         datumPickerDidChanged(datumPicker)
-        
-        //????????????????????????????????????????
-//        UserDefaults.standard.set(globalniDatumM, forKey: datumPickerDatum)
-        
+ 
     }
     
-    @objc func desniSwipeFunkcija(swipe: UISwipeGestureRecognizer)
-    {
+    @objc func desniSwipeFunkcija(swipe: UISwipeGestureRecognizer){
+        
         let kalendar = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0)].CCkalendar
         let noviDatum = kalendar?.date(byAdding: .day, value: -1, to: globalniDatumM)
         datumPicker.date = noviDatum!
         globalniDatumM = noviDatum!
         datumPickerDidChanged(datumPicker)
-        
-        //???????????????????????????
-//        UserDefaults.standard.set(globalniDatumM, forKey: datumPickerDatum)
+
     }
     
-    @objc func dupliTapFunkcija( tap: UITapGestureRecognizer)
-    {
+    @objc func dupliTapFunkcija( tap: UITapGestureRecognizer){
+        
         let danasnjiDatum = Date()
         datumPicker.date = danasnjiDatum
         globalniDatumM = danasnjiDatum
         datumPickerDidChanged(datumPicker)
-        
-        //???????????????????????????
-//        UserDefaults.standard.set(globalniDatumM, forKey: datumPickerDatum)
-    }
-    
-    
-    
 
+    }
+    //MARK:-
+    //MARK:-
 }
