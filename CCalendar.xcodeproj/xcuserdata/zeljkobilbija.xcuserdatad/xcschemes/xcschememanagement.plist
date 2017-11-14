@@ -9,11 +9,6 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Arapski.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
 		<key>CCalendar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -24,10 +19,25 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>China Simple.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>German.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>IT.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>Japan.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

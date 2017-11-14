@@ -332,7 +332,7 @@
             </objects>
             <point key="canvasLocation" x="2482" y="116"/>
         </scene>
-        <!--Convert-->
+        <!--Megtérít-->
         <scene sceneID="Bvz-WR-2tc">
             <objects>
                 <viewController id="Dn6-sM-gZx" customClass="SecondViewController" customModule="CCalendar" customModuleProvider="target" sceneMemberID="viewController">
@@ -442,7 +442,7 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Convert" image="facebook2" id="elc-Jd-S9z"/>
+                    <tabBarItem key="tabBarItem" title="Megtérít" image="facebook2" id="elc-Jd-S9z"/>
                     <connections>
                         <outlet property="datumPicker" destination="khQ-ag-pDo" id="dVv-Dp-pso"/>
                         <outlet property="donjiLabel" destination="shu-Br-aEc" id="LWy-GK-SwI"/>

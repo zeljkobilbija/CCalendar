@@ -33,7 +33,7 @@ class SecondViewController: UIViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = convertString
+        //title = convertString
         //let danasnjidatum = Date()
         //globalniDatumM = danasnjidatum
     

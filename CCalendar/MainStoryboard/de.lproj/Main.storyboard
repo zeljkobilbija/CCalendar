@@ -330,9 +330,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="irx-uI-BMf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2482" y="116"/>
+            <point key="canvasLocation" x="2376.811594202899" y="-166.30434782608697"/>
         </scene>
-        <!--Convert-->
+        <!--Konvertiren-->
         <scene sceneID="Bvz-WR-2tc">
             <objects>
                 <viewController id="Dn6-sM-gZx" customClass="SecondViewController" customModule="CCalendar" customModuleProvider="target" sceneMemberID="viewController">
@@ -442,7 +442,7 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Convert" image="facebook2" id="elc-Jd-S9z"/>
+                    <tabBarItem key="tabBarItem" title="Konvertiren" image="facebook2" id="elc-Jd-S9z"/>
                     <connections>
                         <outlet property="datumPicker" destination="khQ-ag-pDo" id="dVv-Dp-pso"/>
                         <outlet property="donjiLabel" destination="shu-Br-aEc" id="LWy-GK-SwI"/>
@@ -452,7 +452,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="no1-Kl-gAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2481" y="797"/>
+            <point key="canvasLocation" x="2377" y="525"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wwa-GL-nkV">
@@ -494,7 +494,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rie-ka-P2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1537" y="117"/>
+            <point key="canvasLocation" x="1546" y="-166"/>
         </scene>
     </scenes>
     <resources>

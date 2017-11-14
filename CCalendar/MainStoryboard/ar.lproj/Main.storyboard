@@ -261,10 +261,10 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
-                                        <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="ThreedColor">
-                                        <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
                                         <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -300,7 +300,7 @@
                                 <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
-                                <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
@@ -332,7 +332,7 @@
             </objects>
             <point key="canvasLocation" x="2482" y="116"/>
         </scene>
-        <!--Convert-->
+        <!--تحول-->
         <scene sceneID="Bvz-WR-2tc">
             <objects>
                 <viewController id="Dn6-sM-gZx" customClass="SecondViewController" customModule="CCalendar" customModuleProvider="target" sceneMemberID="viewController">
@@ -438,11 +438,11 @@
                                 <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
-                                <color key="value" red="0.0092990538109999996" green="0.80634701249999996" blue="0.99419099089999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Convert" image="facebook2" id="elc-Jd-S9z"/>
+                    <tabBarItem key="tabBarItem" title="تحول" image="facebook2" id="elc-Jd-S9z"/>
                     <connections>
                         <outlet property="datumPicker" destination="khQ-ag-pDo" id="dVv-Dp-pso"/>
                         <outlet property="donjiLabel" destination="shu-Br-aEc" id="LWy-GK-SwI"/>
@@ -494,7 +494,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rie-ka-P2U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1537" y="117"/>
+            <point key="canvasLocation" x="1199" y="116"/>
         </scene>
     </scenes>
     <resources>
