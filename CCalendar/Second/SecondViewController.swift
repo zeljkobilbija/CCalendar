@@ -184,6 +184,7 @@ class SecondViewController: UIViewController {
         let kalendar = picker.pickerovModelPodataka[gornjiPicker.selectedRow(inComponent: 0 )].CCkalendar
 
         
+        
         sender.calendar = kalendar
         sender.calendar.locale = lokal
         
