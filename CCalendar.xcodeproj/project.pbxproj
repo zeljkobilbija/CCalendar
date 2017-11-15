@@ -162,8 +162,8 @@
 				0217C4241FAEA6E200D3D908 /* First */,
 				0217C4271FAEA80400D3D908 /* Second */,
 				02CCAE031FB1C73900C009F9 /* MainStoryboard */,
+				029D1C271FBC551000D46AA7 /* LaunchscreenStoryboard */,
 				021555631FB5A7AC00EA4992 /* Media.xcassets */,
-				0237C0671FAE943900D41C4F /* LaunchScreen.storyboard */,
 				0237C06A1FAE943900D41C4F /* Info.plist */,
 			);
 			path = CCalendar;
@@ -179,6 +179,14 @@
 			);
 			name = Picker;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		029D1C271FBC551000D46AA7 /* LaunchscreenStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				0237C0671FAE943900D41C4F /* LaunchScreen.storyboard */,
+			);
+			path = LaunchscreenStoryboard;
 			sourceTree = "<group>";
 		};
 		02CCAE021FB1C70100C009F9 /* Resources */ = {
