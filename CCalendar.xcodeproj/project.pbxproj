@@ -125,6 +125,15 @@
 			path = Second;
 			sourceTree = "<group>";
 		};
+		021FA1051FBC596200864085 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				02CCAE031FB1C73900C009F9 /* MainStoryboard */,
+				029D1C271FBC551000D46AA7 /* LaunchscreenStoryboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		022B9CF71FAE9DA6000BCB9F /* Disegnables */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,9 +170,8 @@
 				02CCAE021FB1C70100C009F9 /* Resources */,
 				0217C4241FAEA6E200D3D908 /* First */,
 				0217C4271FAEA80400D3D908 /* Second */,
-				02CCAE031FB1C73900C009F9 /* MainStoryboard */,
-				029D1C271FBC551000D46AA7 /* LaunchscreenStoryboard */,
 				021555631FB5A7AC00EA4992 /* Media.xcassets */,
+				021FA1051FBC596200864085 /* Storyboards */,
 				0237C06A1FAE943900D41C4F /* Info.plist */,
 			);
 			path = CCalendar;
