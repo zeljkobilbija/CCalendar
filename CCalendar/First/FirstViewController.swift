@@ -1,9 +1,13 @@
 
 
 import UIKit
+import GoogleMobileAds
 
 class FirstViewController: UIViewController {
     
+//    MARK:- Banner
+    var bannerView: GADBannerView!
+//    var bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
     //MARK: -
     //MARK: GLOBALNE PROMENLJIVE
     
@@ -76,6 +80,8 @@ class FirstViewController: UIViewController {
         })
         
         menuVidljiv = !menuVidljiv
+                title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
+
     }
     
     
@@ -101,6 +107,8 @@ class FirstViewController: UIViewController {
             })
         }
         menuVidljiv = !menuVidljiv
+                title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
+
     }
 
     //MARK: -
@@ -152,18 +160,53 @@ class FirstViewController: UIViewController {
         //MARK: SWIPE ACTIONS
         
         let leviSwipe = UISwipeGestureRecognizer(target: self, action: #selector(leftSwipeAction(swipe:)))
-        leviSwipe.direction = UISwipeGestureRecognizerDirection.left
+        leviSwipe.direction = UISwipeGestureRecognizer.Direction.left
         self.view.addGestureRecognizer(leviSwipe)
 
         let desniSwipe = UISwipeGestureRecognizer(target: self, action: #selector(desniSwipe(swipe:)))
-        desniSwipe.direction = UISwipeGestureRecognizerDirection.right
+        desniSwipe.direction = UISwipeGestureRecognizer.Direction.right
         self.view.addGestureRecognizer(desniSwipe)
 
         let duplitap = UITapGestureRecognizer(target: self, action: #selector(dupliTap(swipe:)))
         duplitap.numberOfTapsRequired = 2
         self.view.addGestureRecognizer(duplitap)
+        
+        if pokaziAdd {
+            bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+            addBannerViewToView(bannerView)
+            bannerView.adUnitID = prviAD
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+        }
+
+       
 
     }
+    
+    
+    
+    
+    func addBannerViewToView(_ bannerView: GADBannerView) {
+      bannerView.translatesAutoresizingMaskIntoConstraints = false
+      view.addSubview(bannerView)
+      view.addConstraints(
+        [NSLayoutConstraint(item: bannerView,
+                            attribute: .bottom,
+                            relatedBy: .equal,
+                            toItem: bottomLayoutGuide,
+//                            toItem: view.safeAreaLayoutGuide,
+                            attribute: .top,
+                            multiplier: 1,
+                            constant: 0),
+         NSLayoutConstraint(item: bannerView,
+                            attribute: .centerX,
+                            relatedBy: .equal,
+                            toItem: view,
+                            attribute: .centerX,
+                            multiplier: 1,
+                            constant: 0)
+        ])
+     }
     
 
     override func didReceiveMemoryWarning() {
@@ -326,6 +369,8 @@ class FirstViewController: UIViewController {
         sestiLabel.text = FormatizovaniDatum().lokalizovanaFormatizovanaStringa(kalendar: Locale.autoupdatingCurrent.calendar,  segmentDatuma: .FULL, datum: globalniDatum).capitalized(with: lokal)
         
         sedmiLabel.text = lokal.localizedString(for: Locale.autoupdatingCurrent.calendar.identifier)?.capitalized(with: lokal)
+//                title = picker.pickerovModelPodataka[menuPicker.selectedRow(inComponent: 0)].CCNazivKalendara
+
         
         UserDefaults.standard.set(globalniDatum, forKey: globalniDatumKey)
         

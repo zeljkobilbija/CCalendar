@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>291876470737-lqjvi3haclbt10ubjap907e8d27rtn6p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.291876470737-lqjvi3haclbt10ubjap907e8d27rtn6p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDlDps-Qnww5ChYW6EiTQR963Ah_qhLSEQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>291876470737</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.interfacemockup.CalendarConverter</string>
+	<key>PROJECT_ID</key>
+	<string>ccalendar-15fcb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ccalendar-15fcb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:291876470737:ios:682460499c6723f5592af0</string>
+	<key>DATABASE_URL</key>
+	<string>https://ccalendar-15fcb.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-7920431183682527~8683749810</string>
+</dict>
+</plist>

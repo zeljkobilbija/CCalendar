@@ -17,7 +17,7 @@ extension MojPicker: UIPickerViewDataSource
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
     {
-        return 15
+        return 14
     }
 }
 
@@ -44,7 +44,7 @@ extension MojPicker: UIPickerViewDelegate
         label.textColor = UIColor.cyan
         //label.textColor = UIColor(red: 2/255, green: 206/255, blue: 254/255, alpha: 1)
         label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.thin)
+        label.font = UIFont.systemFont(ofSize: 22, weight: UIFont.Weight.regular)
 
         view.addSubview(label)
         

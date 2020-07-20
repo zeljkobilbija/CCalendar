@@ -26,6 +26,8 @@
 		0249852D1FAF76F600B8DDED /* ModelPodataka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852B1FAF76F600B8DDED /* ModelPodataka.swift */; };
 		0249852E1FAF76F600B8DDED /* Podatci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852C1FAF76F600B8DDED /* Podatci.swift */; };
 		024985301FAF808300B8DDED /* NoitificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249852F1FAF808300B8DDED /* NoitificationNameExtension.swift */; };
+		02C12E8624C4B763008BB6D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C12E8524C4B763008BB6D4 /* GoogleService-Info.plist */; };
+		BAC8508B6ECD2A9550B86D69 /* Pods_Calendar_Converter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B844A9A0933351DF12C63463 /* Pods_Calendar_Converter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +37,7 @@
 		0217C4251FAEA7FC00D3D908 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		02202C731FBB44530048F527 /* ms */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ms; path = ms.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02202C741FBB44530048F527 /* ms */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ms; path = ms.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0237C05B1FAE943900D41C4F /* CCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0237C05B1FAE943900D41C4F /* Calendar Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calendar Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0237C05E1FAE943900D41C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0237C0631FAE943900D41C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0237C0681FAE943900D41C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		0249852B1FAF76F600B8DDED /* ModelPodataka.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPodataka.swift; sourceTree = "<group>"; };
 		0249852C1FAF76F600B8DDED /* Podatci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podatci.swift; sourceTree = "<group>"; };
 		0249852F1FAF808300B8DDED /* NoitificationNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoitificationNameExtension.swift; sourceTree = "<group>"; };
+		02C12E8524C4B763008BB6D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02CBC2901FBB306500B88E30 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02CBC2911FBB306500B88E30 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02CD73451FBB31E300F23031 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,6 +99,11 @@
 		02CD736C1FBB425300F23031 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = sv; path = sv.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02CD736D1FBB429700F23031 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = nl; path = nl.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02CD736E1FBB429700F23031 /* nl */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = nl; path = nl.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66BF00E988FF335C6FA862A1 /* Pods-CCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCalendar.debug.xcconfig"; path = "Target Support Files/Pods-CCalendar/Pods-CCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		7E68C21E19D94D41BFD0D086 /* Pods-Calendar Converter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar Converter.debug.xcconfig"; path = "Target Support Files/Pods-Calendar Converter/Pods-Calendar Converter.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C24B03C65B38FD89336318 /* Pods-CCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCalendar.release.xcconfig"; path = "Target Support Files/Pods-CCalendar/Pods-CCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		B844A9A0933351DF12C63463 /* Pods_Calendar_Converter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calendar_Converter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C398A96A327567910C709786 /* Pods-Calendar Converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar Converter.release.xcconfig"; path = "Target Support Files/Pods-Calendar Converter/Pods-Calendar Converter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC8508B6ECD2A9550B86D69 /* Pods_Calendar_Converter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,13 +161,15 @@
 			children = (
 				0237C05D1FAE943900D41C4F /* CCalendar */,
 				0237C05C1FAE943900D41C4F /* Products */,
+				0814B2525CD92E71F4A284FF /* Pods */,
+				1EF418DB6ED7B575EC28987F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0237C05C1FAE943900D41C4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0237C05B1FAE943900D41C4F /* CCalendar.app */,
+				0237C05B1FAE943900D41C4F /* Calendar Converter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +184,7 @@
 				021555631FB5A7AC00EA4992 /* Media.xcassets */,
 				021FA1051FBC596200864085 /* Storyboards */,
 				0237C06A1FAE943900D41C4F /* Info.plist */,
+				02C12E8524C4B763008BB6D4 /* GoogleService-Info.plist */,
 			);
 			path = CCalendar;
 			sourceTree = "<group>";
@@ -225,24 +237,46 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		0814B2525CD92E71F4A284FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66BF00E988FF335C6FA862A1 /* Pods-CCalendar.debug.xcconfig */,
+				A7C24B03C65B38FD89336318 /* Pods-CCalendar.release.xcconfig */,
+				7E68C21E19D94D41BFD0D086 /* Pods-Calendar Converter.debug.xcconfig */,
+				C398A96A327567910C709786 /* Pods-Calendar Converter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1EF418DB6ED7B575EC28987F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B844A9A0933351DF12C63463 /* Pods_Calendar_Converter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0237C05A1FAE943900D41C4F /* CCalendar */ = {
+		0237C05A1FAE943900D41C4F /* Calendar Converter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0237C06D1FAE943900D41C4F /* Build configuration list for PBXNativeTarget "CCalendar" */;
+			buildConfigurationList = 0237C06D1FAE943900D41C4F /* Build configuration list for PBXNativeTarget "Calendar Converter" */;
 			buildPhases = (
+				9B60EB9A89FA4F480B400117 /* [CP] Check Pods Manifest.lock */,
 				0237C0571FAE943900D41C4F /* Sources */,
 				0237C0581FAE943900D41C4F /* Frameworks */,
 				0237C0591FAE943900D41C4F /* Resources */,
+				372BC3F64B0B26EF9B72647E /* [CP] Embed Pods Frameworks */,
+				0296A72824C39AE50075EF70 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CCalendar;
+			name = "Calendar Converter";
 			productName = CCalendar;
-			productReference = 0237C05B1FAE943900D41C4F /* CCalendar.app */;
+			productReference = 0237C05B1FAE943900D41C4F /* Calendar Converter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -252,17 +286,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Zeljko Bilbija";
 				TargetAttributes = {
 					0237C05A1FAE943900D41C4F = {
 						CreatedOnToolsVersion = 9.1;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1160;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0237C0561FAE943900D41C4F /* Build configuration list for PBXProject "CCalendar" */;
+			buildConfigurationList = 0237C0561FAE943900D41C4F /* Build configuration list for PBXProject "Calendar Converter" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,7 +332,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0237C05A1FAE943900D41C4F /* CCalendar */,
+				0237C05A1FAE943900D41C4F /* Calendar Converter */,
 			);
 		};
 /* End PBXProject section */
@@ -309,12 +343,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				0237C0691FAE943900D41C4F /* LaunchScreen.storyboard in Resources */,
+				02C12E8624C4B763008BB6D4 /* GoogleService-Info.plist in Resources */,
 				021555641FB5A7AC00EA4992 /* Media.xcassets in Resources */,
 				0237C0641FAE943900D41C4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0296A72824C39AE50075EF70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		372BC3F64B0B26EF9B72647E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calendar Converter/Pods-Calendar Converter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calendar Converter/Pods-Calendar Converter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B60EB9A89FA4F480B400117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calendar Converter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0237C0571FAE943900D41C4F /* Sources */ = {
@@ -423,6 +524,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -430,6 +532,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -457,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -481,6 +584,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -488,6 +592,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -509,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -519,33 +624,39 @@
 		};
 		0237C06E1FAE943900D41C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E68C21E19D94D41BFD0D086 /* Pods-Calendar Converter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon3;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ETPS2BTDG7;
 				INFOPLIST_FILE = CCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.blikline.CCalendar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interfacemockup.CalendarConverter;
+				PRODUCT_NAME = "Calendar Converter";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0237C06F1FAE943900D41C4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C398A96A327567910C709786 /* Pods-Calendar Converter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon3;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = ETPS2BTDG7;
 				INFOPLIST_FILE = CCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.blikline.CCalendar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.interfacemockup.CalendarConverter;
+				PRODUCT_NAME = "Calendar Converter";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -553,7 +664,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0237C0561FAE943900D41C4F /* Build configuration list for PBXProject "CCalendar" */ = {
+		0237C0561FAE943900D41C4F /* Build configuration list for PBXProject "Calendar Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0237C06B1FAE943900D41C4F /* Debug */,
@@ -562,7 +673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0237C06D1FAE943900D41C4F /* Build configuration list for PBXNativeTarget "CCalendar" */ = {
+		0237C06D1FAE943900D41C4F /* Build configuration list for PBXNativeTarget "Calendar Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0237C06E1FAE943900D41C4F /* Debug */,

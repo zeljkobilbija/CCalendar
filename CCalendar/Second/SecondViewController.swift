@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class SecondViewController: UIViewController {
+    
+    //    MARK:- Banner
+    var bannerView: GADBannerView!
 //MARK:-
     //MARK:-
     //MARK:  OUTLETS
@@ -38,7 +42,7 @@ class SecondViewController: UIViewController {
         //globalniDatumM = danasnjidatum
     
         if let startniGlobalnidatum = UserDefaults.standard.value(forKey: datumPickerDatum) {
-            globalniDatumM = startniGlobalnidatum as! Date
+            globalniDatumM = startniGlobalnidatum as? Date
             
         }else{
             globalniDatumM = Date()
@@ -64,7 +68,7 @@ class SecondViewController: UIViewController {
         }
         
         if let pickerCalendar = UserDefaults.standard.value(forKey: datumPickerCalendar) {
-            datumPicker.calendar = pickerCalendar as! Calendar
+            datumPicker.calendar = pickerCalendar as? Calendar
         }
 
         if let label = UserDefaults.standard.value(forKey: donjiLabelText) {
@@ -102,18 +106,50 @@ class SecondViewController: UIViewController {
         datumPicker.setValue(UIColor.cyan , forKey: "textColor")
         
         let leviSwipe = UISwipeGestureRecognizer(target: self, action: #selector(leviSwipeFunkcija(seipe:)))
-        leviSwipe.direction = UISwipeGestureRecognizerDirection.left
+        leviSwipe.direction = UISwipeGestureRecognizer.Direction.left
         self.view.addGestureRecognizer(leviSwipe)
         
         let desniSwipe = UISwipeGestureRecognizer(target: self, action: #selector(desniSwipeFunkcija(swipe:)))
-        desniSwipe.direction = UISwipeGestureRecognizerDirection.right
+        desniSwipe.direction = UISwipeGestureRecognizer.Direction.right
         self.view.addGestureRecognizer(desniSwipe)
         
         let dupliTap = UITapGestureRecognizer(target: self, action: #selector(dupliTapFunkcija(tap:)))
         dupliTap.numberOfTapsRequired = 2
         self.view.addGestureRecognizer(dupliTap)
         
+        
+        if pokaziAdd{
+            bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+            addBannerViewToView(bannerView)
+            bannerView.adUnitID = drugiAD
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+        }
+        
+        
     }
+    
+        func addBannerViewToView(_ bannerView: GADBannerView) {
+          bannerView.translatesAutoresizingMaskIntoConstraints = false
+          view.addSubview(bannerView)
+          view.addConstraints(
+            [NSLayoutConstraint(item: bannerView,
+                                attribute: .bottom,
+                                relatedBy: .equal,
+                                toItem: bottomLayoutGuide,
+//                                toItem: view.safeAreaLayoutGuide,
+                                attribute: .top,
+                                multiplier: 1,
+                                constant: 0),
+             NSLayoutConstraint(item: bannerView,
+                                attribute: .centerX,
+                                relatedBy: .equal,
+                                toItem: view,
+                                attribute: .centerX,
+                                multiplier: 1,
+                                constant: 0)
+            ])
+         }
   
     override func viewWillAppear(_ animated: Bool) {
 
@@ -122,7 +158,7 @@ class SecondViewController: UIViewController {
                 }
         
                 if let pickerCalendar = UserDefaults.standard.value(forKey: datumPickerCalendar) {
-                    datumPicker.calendar = pickerCalendar as! Calendar
+                    datumPicker.calendar = pickerCalendar as? Calendar
                 }
         
                 if let label = UserDefaults.standard.value(forKey: donjiLabelText) {
@@ -189,7 +225,7 @@ class SecondViewController: UIViewController {
         sender.calendar.locale = lokal
         
         if let startniGlobalnidatum = UserDefaults.standard.value(forKey: datumPickerDatum) {
-            globalniDatumM = startniGlobalnidatum as! Date
+            globalniDatumM = startniGlobalnidatum as? Date
             
         }else{
             globalniDatumM = Date()

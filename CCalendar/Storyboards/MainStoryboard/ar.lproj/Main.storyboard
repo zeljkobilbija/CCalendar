@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GNo-m1-OOS">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GNo-m1-OOS">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CCalendario SelectovaniCCalendario Selectovani" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZz-97-in4" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="7" y="71" width="361" height="72"/>
+                                <rect key="frame" x="7" y="51" width="361" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="Z2Z-d3-VhL"/>
                                 </constraints>
@@ -40,9 +37,9 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CC2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7r-Fs-PLT" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="143" y="408.5" width="89.5" height="44"/>
+                                <rect key="frame" x="16" y="355.5" width="343" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="HwW-8o-B8O"/>
+                                    <constraint firstAttribute="height" constant="44" id="Q0X-du-8L5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="26"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,29 +55,10 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="clip" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CCSettembre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LH-lw-lF7" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="126" y="226" width="123.5" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="TTQ-mA-Aet"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="debljinaIvice">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lukUgla">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clip" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CCalendario Persiano" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsA-PC-elU" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="90" y="576" width="195.5" height="32"/>
+                                <rect key="frame" x="16" y="481.5" width="343" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="EKA-cx-dEn"/>
+                                    <constraint firstAttribute="height" constant="32" id="Sic-KG-LaB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
                                 <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -95,9 +73,9 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CC24/08/2017 Settembre ERA0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rI9-z0-g74" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="40" y="518" width="295" height="48"/>
+                                <rect key="frame" x="16" y="421.5" width="343" height="48"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="CP2-1o-wE5"/>
+                                    <constraint firstAttribute="height" constant="48" id="Qxw-Jf-8KE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
                                 <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -113,7 +91,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="my5-Og-rbJ" customClass="DesignView" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="127.5" y="263.5" width="120" height="140"/>
+                                <rect key="frame" x="127.5" y="203.5" width="120" height="140"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ffbg" translatesAutoresizingMaskIntoConstraints="NO" id="MX7-va-KF2" customClass="MojImage" customModule="CCalendar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="140"/>
@@ -137,7 +115,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CCDomenica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5q-Px-X2b" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="7" width="120" height="17"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="17" id="Ni6-YG-eYp"/>
+                                            <constraint firstAttribute="height" constant="17" id="91h-6n-ls2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="14"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -152,10 +130,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPs-oU-Nnd" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
-                                        <rect key="frame" x="-10" y="37" width="140" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="gbN-xU-5NE"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="37" width="120" height="100"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="46"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -173,14 +148,15 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="QPs-oU-Nnd" secondAttribute="bottom" constant="3" id="KW9-Cz-4Yt"/>
-                                    <constraint firstAttribute="height" constant="140" id="NbX-UK-XaU"/>
-                                    <constraint firstAttribute="trailing" secondItem="I5q-Px-X2b" secondAttribute="trailing" id="UTb-Y7-9Ij"/>
-                                    <constraint firstAttribute="trailing" secondItem="QPs-oU-Nnd" secondAttribute="trailing" constant="-10" id="Ufh-6g-aTL"/>
-                                    <constraint firstItem="QPs-oU-Nnd" firstAttribute="leading" secondItem="my5-Og-rbJ" secondAttribute="leading" constant="-10" id="UlN-to-dzu"/>
-                                    <constraint firstItem="I5q-Px-X2b" firstAttribute="leading" secondItem="my5-Og-rbJ" secondAttribute="leading" id="hNF-Qk-PCo"/>
-                                    <constraint firstAttribute="width" constant="120" id="mKb-ee-cKm"/>
-                                    <constraint firstItem="I5q-Px-X2b" firstAttribute="top" secondItem="my5-Og-rbJ" secondAttribute="top" constant="7" id="sTq-Og-0Lw"/>
+                                    <constraint firstAttribute="width" constant="120" id="7Ie-SY-0HM"/>
+                                    <constraint firstAttribute="trailing" secondItem="I5q-Px-X2b" secondAttribute="trailing" id="9TP-2q-rxa"/>
+                                    <constraint firstAttribute="bottom" secondItem="QPs-oU-Nnd" secondAttribute="bottom" constant="3" id="Afe-kg-7k0"/>
+                                    <constraint firstItem="QPs-oU-Nnd" firstAttribute="top" secondItem="I5q-Px-X2b" secondAttribute="bottom" constant="13" id="D0Y-ah-xIo"/>
+                                    <constraint firstAttribute="trailing" secondItem="QPs-oU-Nnd" secondAttribute="trailing" id="MLJ-zh-6ZU"/>
+                                    <constraint firstItem="QPs-oU-Nnd" firstAttribute="leading" secondItem="my5-Og-rbJ" secondAttribute="leading" id="Pzf-20-WNy"/>
+                                    <constraint firstItem="I5q-Px-X2b" firstAttribute="top" secondItem="my5-Og-rbJ" secondAttribute="top" constant="7" id="Xje-Us-2Dt"/>
+                                    <constraint firstItem="I5q-Px-X2b" firstAttribute="leading" secondItem="my5-Og-rbJ" secondAttribute="leading" id="i2r-WX-hBH"/>
+                                    <constraint firstAttribute="height" constant="140" id="vMU-RA-mRW"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -196,7 +172,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBS-vv-lLW" customClass="GradientView" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="-310" y="64" width="300" height="554"/>
+                                <rect key="frame" x="-310" y="44" width="300" height="574"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYY-ji-tUZ" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
                                         <rect key="frame" x="5" y="22" width="290" height="44"/>
@@ -219,10 +195,10 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jol-Ve-LFw" customClass="MojPicker" customModule="CCalendar" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="169.5" width="300" height="216"/>
+                                        <rect key="frame" x="0.0" y="179" width="300" height="216"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpy-HK-lfA" customClass="MojButton" customModule="CCalendar" customModuleProvider="target">
-                                        <rect key="frame" x="125" y="484" width="50" height="50"/>
+                                        <rect key="frame" x="125" y="444" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="C04-9o-lSO"/>
@@ -250,7 +226,7 @@
                                 <constraints>
                                     <constraint firstItem="Lpy-HK-lfA" firstAttribute="centerX" secondItem="GBS-vv-lLW" secondAttribute="centerX" id="7UY-cA-pg2"/>
                                     <constraint firstItem="jol-Ve-LFw" firstAttribute="centerY" secondItem="GBS-vv-lLW" secondAttribute="centerY" id="F1O-Nl-PlR"/>
-                                    <constraint firstAttribute="bottom" secondItem="Lpy-HK-lfA" secondAttribute="bottom" constant="20" id="Hvs-Qw-ryv"/>
+                                    <constraint firstAttribute="bottom" secondItem="Lpy-HK-lfA" secondAttribute="bottom" constant="80" id="Hvs-Qw-ryv"/>
                                     <constraint firstAttribute="trailing" secondItem="jol-Ve-LFw" secondAttribute="trailing" id="PJs-jJ-dtf"/>
                                     <constraint firstItem="jol-Ve-LFw" firstAttribute="centerX" secondItem="GBS-vv-lLW" secondAttribute="centerX" id="R1X-zE-yhX"/>
                                     <constraint firstAttribute="trailing" secondItem="yYY-ji-tUZ" secondAttribute="trailing" constant="5" id="RFG-Fj-I8W"/>
@@ -271,25 +247,48 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CCSettembre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LH-lw-lF7" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
+                                <rect key="frame" x="16" y="161.5" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ODH-pX-3Y4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="debljinaIvice">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lukUgla">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clip" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="9LH-lw-lF7" firstAttribute="centerX" secondItem="wcT-bd-hH7" secondAttribute="centerX" id="0J6-3t-PBh"/>
                             <constraint firstItem="uZz-97-in4" firstAttribute="top" secondItem="beC-iz-47a" secondAttribute="top" constant="7" id="2GQ-WS-L4d"/>
-                            <constraint firstItem="lsA-PC-elU" firstAttribute="top" secondItem="rI9-z0-g74" secondAttribute="bottom" constant="10" id="4KA-AG-2t6"/>
-                            <constraint firstItem="my5-Og-rbJ" firstAttribute="centerX" secondItem="wcT-bd-hH7" secondAttribute="centerX" id="Cag-zS-4dS"/>
+                            <constraint firstItem="lsA-PC-elU" firstAttribute="leading" secondItem="beC-iz-47a" secondAttribute="leading" constant="16" id="5e6-Lp-3W7"/>
+                            <constraint firstItem="beC-iz-47a" firstAttribute="trailing" secondItem="lsA-PC-elU" secondAttribute="trailing" constant="16" id="838-kx-Sf6"/>
+                            <constraint firstItem="lsA-PC-elU" firstAttribute="top" secondItem="rI9-z0-g74" secondAttribute="bottom" constant="12" id="Bfs-ha-w9d"/>
                             <constraint firstItem="GBS-vv-lLW" firstAttribute="top" secondItem="beC-iz-47a" secondAttribute="top" id="Fpl-BF-TE0"/>
+                            <constraint firstItem="O7r-Fs-PLT" firstAttribute="top" secondItem="my5-Og-rbJ" secondAttribute="bottom" constant="12" id="KK1-Sj-Pzt"/>
+                            <constraint firstItem="9LH-lw-lF7" firstAttribute="leading" secondItem="beC-iz-47a" secondAttribute="leading" constant="16" id="Mkw-iQ-wdK"/>
+                            <constraint firstItem="beC-iz-47a" firstAttribute="trailing" secondItem="rI9-z0-g74" secondAttribute="trailing" constant="16" id="PPz-uc-qai"/>
                             <constraint firstItem="GBS-vv-lLW" firstAttribute="leading" secondItem="beC-iz-47a" secondAttribute="leading" constant="-310" id="RfF-HT-nZt"/>
-                            <constraint firstItem="lsA-PC-elU" firstAttribute="centerX" secondItem="wcT-bd-hH7" secondAttribute="centerX" id="SKm-xj-3iX"/>
-                            <constraint firstItem="O7r-Fs-PLT" firstAttribute="top" secondItem="my5-Og-rbJ" secondAttribute="bottom" constant="5" id="Tnv-oF-vyI"/>
+                            <constraint firstItem="rI9-z0-g74" firstAttribute="leading" secondItem="beC-iz-47a" secondAttribute="leading" constant="16" id="TAL-N5-GBe"/>
+                            <constraint firstItem="beC-iz-47a" firstAttribute="trailing" secondItem="O7r-Fs-PLT" secondAttribute="trailing" constant="16" id="Ulk-Es-sor"/>
                             <constraint firstItem="uZz-97-in4" firstAttribute="leading" secondItem="beC-iz-47a" secondAttribute="leading" constant="7" id="bSB-PN-L3g"/>
-                            <constraint firstItem="beC-iz-47a" firstAttribute="bottom" secondItem="lsA-PC-elU" secondAttribute="bottom" constant="10" id="dAR-lE-sTA"/>
-                            <constraint firstItem="my5-Og-rbJ" firstAttribute="top" secondItem="9LH-lw-lF7" secondAttribute="bottom" constant="7" id="gI2-6l-sts"/>
-                            <constraint firstItem="rI9-z0-g74" firstAttribute="centerX" secondItem="wcT-bd-hH7" secondAttribute="centerX" id="gqG-II-8cW"/>
+                            <constraint firstItem="my5-Og-rbJ" firstAttribute="top" secondItem="9LH-lw-lF7" secondAttribute="bottom" constant="12" id="bV4-DD-giG"/>
+                            <constraint firstItem="beC-iz-47a" firstAttribute="trailing" secondItem="9LH-lw-lF7" secondAttribute="trailing" constant="16" id="dbY-8W-Rhw"/>
+                            <constraint firstItem="rI9-z0-g74" firstAttribute="top" secondItem="O7r-Fs-PLT" secondAttribute="bottom" constant="22" id="fKL-to-a4T"/>
                             <constraint firstItem="GBS-vv-lLW" firstAttribute="bottom" secondItem="beC-iz-47a" secondAttribute="bottom" id="hO3-7z-hYw"/>
                             <constraint firstItem="beC-iz-47a" firstAttribute="trailing" secondItem="uZz-97-in4" secondAttribute="trailing" constant="7" id="kdY-K5-HC3"/>
-                            <constraint firstItem="my5-Og-rbJ" firstAttribute="centerY" secondItem="wcT-bd-hH7" secondAttribute="centerY" id="kwc-w2-OK9"/>
-                            <constraint firstItem="O7r-Fs-PLT" firstAttribute="centerX" secondItem="wcT-bd-hH7" secondAttribute="centerX" id="yc2-bX-JFX"/>
+                            <constraint firstItem="my5-Og-rbJ" firstAttribute="centerX" secondItem="wcT-bd-hH7" secondAttribute="centerX" id="pAp-iU-QAV"/>
+                            <constraint firstItem="my5-Og-rbJ" firstAttribute="centerY" secondItem="wcT-bd-hH7" secondAttribute="centerY" constant="-60" id="r8x-LP-dD6"/>
+                            <constraint firstItem="O7r-Fs-PLT" firstAttribute="leading" secondItem="beC-iz-47a" secondAttribute="leading" constant="16" id="xzG-I8-Ios"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="beC-iz-47a"/>
                         <userDefinedRuntimeAttributes>
@@ -306,7 +305,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Q3b-3H-Bdd">
                         <barButtonItem key="leftBarButtonItem" image="facebookkonvert" id="P0z-y1-ixS">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="navBarButton:" destination="b31-3Y-axz" id="Uxr-l3-Uzg"/>
                             </connections>
@@ -340,36 +339,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="khQ-ag-pDo">
-                                <rect key="frame" x="5" y="20" width="365" height="120"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="khQ-ag-pDo">
+                                <rect key="frame" x="5" y="0.0" width="365" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Tdf-gf-agO"/>
                                 </constraints>
-                                <date key="date" timeIntervalSinceReferenceDate="529956649.28526998">
-                                    <!--2017-10-17 18:10:49 +0000-->
-                                </date>
                                 <connections>
                                     <action selector="datumPickerDidChanged:" destination="Dn6-sM-gZx" eventType="valueChanged" id="REK-jL-oWt"/>
                                 </connections>
                             </datePicker>
                             <pickerView tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7P-BE-BPD" customClass="MojPicker" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="10" y="145" width="355" height="120"/>
+                                <rect key="frame" x="10" y="125" width="355" height="120"/>
                                 <accessibility key="accessibilityConfiguration" identifier="gornjiPicker"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="8AS-kM-fJc"/>
                                 </constraints>
                             </pickerView>
                             <pickerView tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="riT-u9-spW" customClass="MojPicker" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="10" y="408" width="355" height="120"/>
+                                <rect key="frame" x="10" y="299" width="355" height="120"/>
                                 <accessibility key="accessibilityConfiguration" identifier="donjiPicker"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="MBf-NY-x1h"/>
+                                    <constraint firstAttribute="height" constant="120" id="ZEY-Ym-ux5"/>
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15/8/2015" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shu-Br-aEc" customClass="MojLabel" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="10" y="533" width="355" height="70"/>
+                                <rect key="frame" x="10" y="424" width="355" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="4kI-ed-Tki"/>
+                                    <constraint firstAttribute="height" constant="70" id="Z0k-Z0-4cz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -389,11 +385,11 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebookkonvert" translatesAutoresizingMaskIntoConstraints="NO" id="RA0-vp-ZAs" customClass="MojImage" customModule="CCalendar" customModuleProvider="target">
-                                <rect key="frame" x="165.5" y="311.5" width="44" height="44"/>
+                                <rect key="frame" x="165.5" y="250" width="44" height="44"/>
                                 <color key="tintColor" red="0.60245378729999999" green="0.12212532199999999" blue="0.081407313290000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="PGq-CI-qDu"/>
-                                    <constraint firstAttribute="width" constant="44" id="oyx-vl-ZaF"/>
+                                    <constraint firstAttribute="height" constant="44" id="gfm-E0-4xz"/>
+                                    <constraint firstAttribute="width" constant="44" id="s1D-JJ-5Vm"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -414,18 +410,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="v8S-lD-eXK" firstAttribute="trailing" secondItem="shu-Br-aEc" secondAttribute="trailing" constant="10" id="2ER-8D-8e9"/>
-                            <constraint firstItem="v8S-lD-eXK" firstAttribute="bottom" secondItem="shu-Br-aEc" secondAttribute="bottom" constant="15" id="9T3-Qa-RgZ"/>
-                            <constraint firstItem="shu-Br-aEc" firstAttribute="leading" secondItem="v8S-lD-eXK" secondAttribute="leading" constant="10" id="9ps-Qc-k6p"/>
+                            <constraint firstItem="v8S-lD-eXK" firstAttribute="trailing" secondItem="riT-u9-spW" secondAttribute="trailing" constant="10" id="0Lv-Ge-QQh"/>
+                            <constraint firstItem="RA0-vp-ZAs" firstAttribute="top" secondItem="a7P-BE-BPD" secondAttribute="bottom" constant="5" id="7OM-iy-MmJ"/>
                             <constraint firstItem="a7P-BE-BPD" firstAttribute="top" secondItem="khQ-ag-pDo" secondAttribute="bottom" constant="5" id="BPM-FN-pm8"/>
+                            <constraint firstItem="shu-Br-aEc" firstAttribute="leading" secondItem="v8S-lD-eXK" secondAttribute="leading" constant="10" id="BQ9-3o-L5o"/>
                             <constraint firstItem="v8S-lD-eXK" firstAttribute="trailing" secondItem="a7P-BE-BPD" secondAttribute="trailing" constant="10" id="Bez-t2-UFA"/>
                             <constraint firstItem="khQ-ag-pDo" firstAttribute="top" secondItem="v8S-lD-eXK" secondAttribute="top" id="DYx-9a-wBt"/>
-                            <constraint firstItem="RA0-vp-ZAs" firstAttribute="centerY" secondItem="Ute-u1-7Jo" secondAttribute="centerY" id="FRb-BA-b0W"/>
-                            <constraint firstItem="riT-u9-spW" firstAttribute="leading" secondItem="v8S-lD-eXK" secondAttribute="leading" constant="10" id="VZG-O0-KCH"/>
-                            <constraint firstItem="RA0-vp-ZAs" firstAttribute="centerX" secondItem="Ute-u1-7Jo" secondAttribute="centerX" id="Wqo-Yz-HmE"/>
-                            <constraint firstItem="v8S-lD-eXK" firstAttribute="trailing" secondItem="riT-u9-spW" secondAttribute="trailing" constant="10" id="WwZ-fr-gxd"/>
+                            <constraint firstItem="riT-u9-spW" firstAttribute="top" secondItem="RA0-vp-ZAs" secondAttribute="bottom" constant="5" id="FuQ-jO-tLx"/>
+                            <constraint firstItem="riT-u9-spW" firstAttribute="leading" secondItem="v8S-lD-eXK" secondAttribute="leading" constant="10" id="H3z-eV-gb4"/>
+                            <constraint firstItem="shu-Br-aEc" firstAttribute="top" secondItem="riT-u9-spW" secondAttribute="bottom" constant="5" id="IdJ-Go-OSd"/>
+                            <constraint firstItem="v8S-lD-eXK" firstAttribute="trailing" secondItem="shu-Br-aEc" secondAttribute="trailing" constant="10" id="SeU-FL-gia"/>
+                            <constraint firstItem="RA0-vp-ZAs" firstAttribute="centerX" secondItem="Ute-u1-7Jo" secondAttribute="centerX" id="U77-9a-2QJ"/>
                             <constraint firstItem="v8S-lD-eXK" firstAttribute="trailing" secondItem="khQ-ag-pDo" secondAttribute="trailing" constant="5" id="avH-hQ-U8P"/>
-                            <constraint firstItem="shu-Br-aEc" firstAttribute="top" secondItem="riT-u9-spW" secondAttribute="bottom" constant="5" id="i3U-m0-TBe"/>
                             <constraint firstItem="khQ-ag-pDo" firstAttribute="leading" secondItem="v8S-lD-eXK" secondAttribute="leading" constant="5" id="sGx-0M-3iO"/>
                             <constraint firstItem="a7P-BE-BPD" firstAttribute="leading" secondItem="v8S-lD-eXK" secondAttribute="leading" constant="10" id="tfj-EZ-7sP"/>
                         </constraints>
@@ -442,7 +438,7 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <tabBarItem key="tabBarItem" title="تحول" image="facebook2" id="elc-Jd-S9z"/>
+                    <tabBarItem key="tabBarItem" title="تحول" image="2.square" catalog="system" id="elc-Jd-S9z"/>
                     <connections>
                         <outlet property="datumPicker" destination="khQ-ag-pDo" id="dVv-Dp-pso"/>
                         <outlet property="donjiLabel" destination="shu-Br-aEc" id="LWy-GK-SwI"/>
@@ -463,7 +459,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="ZJp-Ps-hQ9" kind="relationship" relationship="viewControllers" id="B6j-av-yfU"/>
@@ -478,13 +475,14 @@
         <scene sceneID="3Dl-b7-sbD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZJp-Ps-hQ9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="facebook1" id="mxP-by-8iq"/>
+                    <tabBarItem key="tabBarItem" title="" image="1.square" catalog="system" id="mxP-by-8iq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8Og-8p-XH7">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.20000000000000001" green="0.40000000000000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -498,8 +496,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="facebook1" width="44" height="44"/>
-        <image name="facebook2" width="44" height="44"/>
+        <image name="1.square" catalog="system" width="128" height="114"/>
+        <image name="2.square" catalog="system" width="128" height="114"/>
         <image name="facebookkonvert" width="44" height="44"/>
         <image name="ffbg" width="960" height="1120"/>
     </resources>

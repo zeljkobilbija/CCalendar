@@ -36,7 +36,7 @@ class Podatci{
         
         data.append(ModelPodataka(CCNazivKalendara: (lokal.localizedString(for: Calendar.Identifier.islamicCivil)?.capitalized(with: lokal))!, CCkalendar: Calendar(identifier: .islamicCivil), CCkalendarskiIdentifer: .islamicCivil))
         
-        data.append(ModelPodataka(CCNazivKalendara: (lokal.localizedString(for: Calendar.Identifier.islamicTabular)?.capitalized(with: lokal))!, CCkalendar: Calendar(identifier: .islamicTabular), CCkalendarskiIdentifer: .islamicTabular))
+//        data.append(ModelPodataka(CCNazivKalendara: (lokal.localizedString(for: Calendar.Identifier.islamicTabular)?.capitalized(with: lokal))!, CCkalendar: Calendar(identifier: .islamicTabular), CCkalendarskiIdentifer: .islamicTabular))
         
         data.append(ModelPodataka(CCNazivKalendara: (lokal.localizedString(for: Calendar.Identifier.islamicUmmAlQura)?.capitalized(with: lokal))!, CCkalendar: Calendar(identifier: .islamicUmmAlQura), CCkalendarskiIdentifer: .islamicUmmAlQura))
         
